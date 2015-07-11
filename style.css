@@ -62,13 +62,7 @@ img:last-of-type {
   right:0;
 }
 
-.title {
-  width: 50%;
-  padding: 5%;
-  border-radius: 5px;
-  background: rgba(240,230,220, .7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-}
+
 
 .slide:nth-child(2n) .title {
   margin-left: 0;
@@ -92,28 +86,85 @@ img:last-of-type {
 }
 
 #title {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-6.jpg");
+  background-image: url("http://image.tmdb.org/t/p/original/eWtzrnNAWcc752zTIM5xWtPUKuI.jpg");
    background-attachment: fixed;  
 }
-
+ 
 #slide1:before {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-4.jpg");
+  background-image: url("http://hitwallpaper.com/wp-content/uploads/2013/07/Pixar.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
 
 #slide2 {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-3.jpg");
+  background-image: url("http://aimg.disneystore.com/content/ds/skyway/2012/category/full/cp_FWB_Pixar_20120926.jpg");
   background-attachment: fixed;
 }
 
 #slide3:before {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-5.jpg");
+  background-image: url("http://disneydose.com/wp-content/uploads/Luxo-and-Ball1.png");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
 
+
 #slide4 {
-  background: #222;
+  background-image: url("http://vignette2.wikia.nocookie.net/pixar/images/3/33/Title-knickknack.jpg/revision/latest?cb=20110615003450");
+  background-attachment: fixed;
+}
+#slide5:before{
+  background-image: url("http://warrezsg96.ru/uploads/posts/2010-08/1281595830_snapshot.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+#slide6 {
+  background-image: url("http://vignette2.wikia.nocookie.net/pixar/images/5/54/Day%26night.png/revision/latest?cb=20110604235602");
+  background-attachment: fixed;
+
+}
+#slide7:before {
+  background-image: url("http://cartoon-excellence.com/wp-content/uploads/2013/04/Presto-wallpaper.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+
 }
 
+#slide8 {
+  background-image: url("https://proximasessao.files.wordpress.com/2012/02/xkweymltyalxbig.jpg");
+  background-attachment: fixed;
+}
+#slide9:before {
+  background-image: url("http://i90.photobucket.com/albums/k241/worldsgreatestsinner/Polls/Burn-E_zps7b0fc3bc.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+#slide10 {
+  background-image: url("https://image.tmdb.org/t/p/original/msI2Xq6HGMjzWQbFEf6Ls3HSrLp.jpg");
+  background-attachment: fixed;
+}
+#slide11:before {
+  background-image: url("http://vignette4.wikia.nocookie.net/pixar/images/4/4d/Lifted_title_card.png/revision/latest?cb=20110424103022");
+ transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+#slide12 {
+  background-image: url("https://image.tmdb.org/t/p/original/msI2Xq6HGMjzWQbFEf6Ls3HSrLp.jpg");
+  background-attachment: fixed;
+}
+#endslide {
+  background: #222;
+}
+#slides_control > div{
+  height: 200px;
+}
+img{
+  margin:auto;
+  width: 400px;
+}
+#slides_control {
+  position:absolute;
+  width: 400px;
+  left:50%;
+  top:20px;
+ margin-left:-200px;
+}
