@@ -37,7 +37,7 @@ p {
     box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
     transform-style: inherit;
 }
-
+/* In slide pics*/
 .fun-images {
     position: absolute;
     top: 50%;
@@ -99,12 +99,12 @@ nav#primary a {
     width: 20px;
     height: 20px;
     text-indent: -9999px;
-    background: transparent url('../img/nav-dot.png') 4px 4px no-repeat;
+    background: transparent url('img/nav-dot.png') 4px 4px no-repeat;
 }
 
 nav#primary a:hover,
 nav#primary a.active {
-    background: transparent url('../img/nav-dot.png') 4px -16px no-repeat;
+    background: transparent url('img/nav-dot.png') 4px -16px no-repeat;
 }
 
 nav#primary h1 {
@@ -116,7 +116,7 @@ nav#primary h1 {
     ;
     color: #fff;
     white-space: nowrap;
-    background: transparent url('../img/nav-arrow.png') 100% 50% no-repeat;
+    background: transparent url('img/nav-arrow.png') 100% 50% no-repeat;
 }
 
 nav.next-prev {
@@ -133,21 +133,23 @@ nav.next-prev {
 
     a.prev {
       margin: 0 auto 5px auto;
-      background: transparent url('../assets/scroll-arrow-up.png') 0 0 no-repeat;
+      background: transparent url('assets/scroll-arrow-up.png') 0 0 no-repeat;
     }
 
     a.prev:hover {
-      background: transparent url('../assets/scroll-arrow-up.png') 0 -11px no-repeat;
+      background: transparent url('assets/scroll-arrow-up.png') 0 -11px no-repeat;
     }
 
     a.next {
       margin: 5px auto 0 auto;
-      background: transparent url('../assets/scroll-arrow-down.png') -1px 0 no-repeat;
+      background: transparent url('assets/scroll-arrow-down.png') -1px 0 no-repeat;
     }
 
     a.next:hover {
-      background: transparent url('../assets/scroll-arrow-down.png') -1px -11px no-repeat;
+      background: transparent url('assets/scroll-arrow-down.png') -1px -11px no-repeat;
     }
+
+/* Carousel */
 .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
         width: 70%;
@@ -175,7 +177,7 @@ nav.next-prev {
     color: #fff;
     text-shadow: 0 2px 2px #000;
 }
-
+/* Slides*/
 #title {
     background-image: url("http://image.tmdb.org/t/p/original/eWtzrnNAWcc752zTIM5xWtPUKuI.jpg");
     background-attachment: fixed;
@@ -207,7 +209,7 @@ nav.next-prev {
 }
 
 #slide4 {
-    background-image: url("http://vignette2.wikia.nocookie.net/pixar/images/3/33/Title-knickknack.jpg/revision/latest?cb=20110615003450");
+    background-image: url("http://www.duckipedia.de/images/7/74/Knick_knack.JPG");
     background-attachment: fixed;
 }
 
@@ -258,7 +260,7 @@ nav.next-prev {
 #endslide {
     background: #222;
 }
-
+/* Back Arrow */
 #slides_control > div {
     height: 200px;
 }
