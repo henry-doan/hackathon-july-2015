@@ -14,6 +14,7 @@
     <style type="text/css"></style>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 </head>
 
@@ -23,19 +24,16 @@
         <a href="#top"><img src="return.svg" alt="return-to-top" class="rtt"></a>
     </header>-->
     <!--Nav-->
-    <nav id="primary">
+    <!--<nav id="primary">
         <ul
-            <li>
-                <h1>Title</h1>
-                <a class="title" href="#title">View</a>
-            </li>
+            
             <li>
                 <h1>slide1</h1>
                 <a class="slide1" href="#slide1">View</a>
             </li>
             <li>
                 <h1>History</h1>
-                <a class="slide2" href="#slide2">View</a>
+                <a class="slide2" href="#myCarousel">View</a>
             </li>
             <li>
                 <h1>Luxo Jr.</h1>
@@ -82,7 +80,7 @@
                 <a class="endslide" href="#endslide">View</a>
             </li>
         </ul>
-    </nav>
+    </nav>-->
     <div id="title" class="slide header">
     </div>
     <div id="slide1" class="slide" data-slide="1">
@@ -208,10 +206,12 @@
     </div>
     <!--luxo jr.-->
     <div id="slide3" class="slide" data-slide="3">
+        <a class="prev" href="#myCarousel"></a> 
         <div class="title">
             <h2>Luxo Jr.</h2>
             <iframe width="550" height="300" src="https://www.youtube.com/embed/D4NPQ8mfKU0" src="https://www.youtube.com/embed/3aintj9zXY8" frameborder="0" allowfullscreen></iframe>
         </div>
+        <a class="next" href="#slide4"></a> 
     </div>
     <!--knick knacks-->
     <div id="slide4" class="slide" data-slide="4">

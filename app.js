@@ -15,14 +15,7 @@ $(document).ready(function() {
     });
 
 /* Next/prev and primary nav btn click handlers */
-$('a.title').click(function() {
-    $('html, body').animate({
-        scrollTop: 0
-    }, 1000, function() {
-        parallaxScroll(); // Callback is required for iOS
-    });
-    return false;
-});
+
 $('a.slide1').click(function() {
     $('html, body').animate({
         scrollTop: $('#slide1').offset().top
