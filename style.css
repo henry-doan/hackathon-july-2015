@@ -73,7 +73,7 @@ a:visited {
     -moz-transition: color 0.25s ease-out;
     -o-transition: color 0.25s ease-out;
     transition: color 0.25s ease-out;
-    color: #21a97e;
+    color: #6CFF37;
     outline: none;
     text-decoration: none;
     }
@@ -128,7 +128,7 @@ nav.next-prev {
       display: block;
       width: 15px;
       height: 11px;
-      text-indent: -9999px;
+      text-indent: #6CFF37px;
     } 
 
     a.prev {
@@ -148,6 +148,25 @@ nav.next-prev {
     a.next:hover {
       background: transparent url('assets/scroll-arrow-down.png') -1px -11px no-repeat;
     }
+
+    .companybb{
+   margin: 0 0 1rem;
+   padding: 7rem 5% 0;
+   height: 13rem;
+   width: 100%;
+   
+   background-repeat: no-repeat;
+   font-family: 'times', monospace;
+   font-size: 6.75rem;
+   font-style: oblique;
+   font-weight: bolder;
+   text-shadow:
+   -3px -3px 0 #FFF,  
+   3px -3px 0 #FFF,
+   -3px 3px 0 #FFF,
+   3px 3px 0 #FFF;
+   border-radius: 0 0 1.5rem 1.5rem;
+}
 
 /* Carousel */
 .carousel-inner > .item > img,
@@ -203,18 +222,19 @@ nav.next-prev {
 }
 
 #slide3:before {
-    background-image: url("http://disneydose.com/wp-content/uploads/Luxo-and-Ball1.png");
+    background-image: url("http://orig00.deviantart.net/7556/f/2008/154/a/1/pixar_by_joneastwood.jpg");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
 
 #slide4 {
-    background-image: url("http://www.duckipedia.de/images/7/74/Knick_knack.JPG");
+    background-image: url("http://www.mafab.hu/static/2014t/285/16/46995_35.jpg");
     background-attachment: fixed;
+
 }
 
 #slide5:before {
-    background-image: url("http://warrezsg96.ru/uploads/posts/2010-08/1281595830_snapshot.jpg");
+    background-image: url("http://image.tmdb.org/t/p/original/o92J1dJTK8kFQUnpkCb5bcn0gyL.jpg");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
@@ -231,12 +251,12 @@ nav.next-prev {
 }
 
 #slide8 {
-    background-image: url("https://proximasessao.files.wordpress.com/2012/02/xkweymltyalxbig.jpg");
+    background-image: url("http://1.bp.blogspot.com/-Ykuly6nYFTg/UJii7SLk6tI/AAAAAAAADWU/0fy3TZb6ua8/s1600/Geri's+Game.jpg");
     background-attachment: fixed;
 }
 
 #slide9:before {
-    background-image: url("http://i90.photobucket.com/albums/k241/worldsgreatestsinner/Polls/Burn-E_zps7b0fc3bc.jpg");
+    background-image: url("http://i486.photobucket.com/albums/rr221/jorgemmgames/Burn-e/burn-e2.png");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
@@ -247,7 +267,7 @@ nav.next-prev {
 }
 
 #slide11:before {
-    background-image: url("http://webneel.com/sites/default/files/images/videos/lifted-pixar-short-film-1.jpg");
+    background-image: url("http://www.wallpaper4me.com/images/wallpapers/houseabduction-469315.jpeg");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
@@ -258,23 +278,8 @@ nav.next-prev {
 }
 
 #endslide {
-    background: #222;
+    background-image: url("http://media.giphy.com/media/YVg3fCdaBpLEc/giphy.gif")
 }
-/* Back Arrow */
-#slides_control > div {
-    height: 200px;
-}
-
-img {
-    margin: auto;
-    width: 400px;
-
-}
-
-#slides_control {
-    position: absolute;
-    width: 400px;
-    left: 50%;
-    top: 20px;
-    margin-left: -200px;
+#epilogue {
+  background-image: url("http://a.dilcdn.com/bl/wp-content/uploads/sites/2/2015/05/Up080.png");
 }
