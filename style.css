@@ -22,6 +22,11 @@ h1 {
 h2 {
     font-size: 250%
 }
+
+h3 {
+    font-size: 250%;
+    padding-left: 40px;
+}
 p {
     font-size: 140%;
     line-height: 150%;
@@ -63,6 +68,11 @@ p {
     left: 0;
     right: 0;
 }
+
+.video {
+    position: relative;
+}
+
 /* Nav*/
 
 a,
@@ -167,6 +177,24 @@ nav.next-prev {
    3px 3px 0 #FFF;
    border-radius: 0 0 1.5rem 1.5rem;
 }
+ .companybb2{
+   margin: 0 0 1rem;
+   padding: 7rem 5% 5rem 60rem;
+   height: 13rem;
+   width: 100%;
+   
+   background-repeat: no-repeat;
+   font-family: 'times', monospace;
+   font-size: 6.75rem;
+   font-style: oblique;
+   font-weight: bolder;
+   text-shadow:
+   -3px -3px 0 #FFF,  
+   3px -3px 0 #FFF,
+   -3px 3px 0 #FFF,
+   3px 3px 0 #FFF;
+   border-radius: 0 0 1.5rem 1.5rem;
+}
 
 /* Carousel */
 .carousel-inner > .item > img,
@@ -196,6 +224,7 @@ nav.next-prev {
     color: #fff;
     text-shadow: 0 2px 2px #000;
 }
+
 /* Slides*/
 #title {
     background-image: url("http://image.tmdb.org/t/p/original/eWtzrnNAWcc752zTIM5xWtPUKuI.jpg");
@@ -230,7 +259,6 @@ nav.next-prev {
 #slide4 {
     background-image: url("http://www.mafab.hu/static/2014t/285/16/46995_35.jpg");
     background-attachment: fixed;
-
 }
 
 #slide5:before {
