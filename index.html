@@ -4,317 +4,248 @@
 <head>
     <title>Pixar Parallax</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="Demo project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="./jquery-1.11.3.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-    <style type="text/css"></style>
+    <script src="./assets/js/jquery-1.11.3.min.js"></script>
+    <script src="./assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./assets/js/angular.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="./jquery.min.js"></script> 
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
-
-<body ng-app>
-   <!-- <header>
-        <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
-        <a href="#top"><img src="return.svg" alt="return-to-top" class="rtt"></a>
-    </header>-->
-    <!--Nav-->
-    <!--<nav id="primary">
-        <ul
+    <body ng-app>
+        <div id="title" class="slide header">
+        </div>
+        <div id="slide1" class="slide" data-slide="1">
+            <div class="title">
+            </div>
+            <a class="next" href="#myCarousel"></a>
+        </div>
+        <!--Carousel-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="assets/1.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/2.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/3.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/4.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/5.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/6.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/7.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/8.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/9.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/10.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/11.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/12.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/13.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/14.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/15.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/16.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/17.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/18.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/19.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/20.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/21.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/22.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/23.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/24.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/25.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/26.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/27.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/28.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/29.png" class="img-rounded">
+                </div>
+                <div class="item">
+                    <img src="assets/30.png" class="img-rounded">
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--luxo jr.-->
+        <div id="slide3" class="slide" data-slide="3">
+            <a class="prev" href="#myCarousel"></a><a class="next" href="#slide4"></a> 
+            <div class="title">
+                <h1 class="companybb">Luxo Jr.</h1>
+                <iframe class="video" width="550" height="300" src="https://www.youtube.com/embed/D4NPQ8mfKU0" src="https://www.youtube.com/embed/3aintj9zXY8" frameborder="0" allowfullscreen></iframe>
+            </div>
             
-            <li>
-                <h1>slide1</h1>
-                <a class="slide1" href="#slide1">View</a>
-            </li>
-            <li>
-                <h1>History</h1>
-                <a class="slide2" href="#myCarousel">View</a>
-            </li>
-            <li>
-                <h1>Luxo Jr.</h1>
-                <a class="slide3" href="#slide3">View</a>
-            </li>
-            <li>
-                <h1>Knick Knacks</h1>
-                <a class="slide4" href="#slide4">View</a>
-            </li>
-            <li>
-                <h1>One Man Band</h1>
-                <a class="slide5" href="#slide5">View</a>
-            </li>
-            <li>
-                <h1>Day & Night</h1>
-                <a class="slide6" href="#slide6">View</a>
-            </li>
-            <li>
-                <h1>Presto</h1>
-                <a class="slide7" href="#slide7">View</a>
-            </li>
-            <li>
-                <h1>Geri's Game</h1>
-                <a class="slide8" href="#slide8">View</a>
-            </li>
-            <li>
-                <h1>Burn-E</h1>
-                <a class="slide9" href="#slide9">View</a>
-            </li>
-            <li>
-                <h1>Jack-Jack Attacks</h1>
-                <a class="slide10" href="#slide10">View</a>
-            </li>
-            <li>
-                <h1>Lifted</h1>
-                <a class="slide11" href="#slide11">View</a>
-            </li>
-            <li>
-                <h1>Paperman</h1>
-                <a class="slide12" href="#slide12">View</a>
-            </li>
-            <li>
-                <h1>End</h1>
-                <a class="endslide" href="#endslide">View</a>
-            </li>
-        </ul>
-    </nav>-->
-    <div id="title" class="slide header">
-    </div>
-    <div id="slide1" class="slide" data-slide="1">
-        <div class="title">
-           
         </div>
-         <a class="next" href="#myCarousel"></a>
-    </div>
-    <!--Carousel-->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-            <li data-target="#myCarousel" data-slide-to="5"></li>
-            <li data-target="#myCarousel" data-slide-to="6"></li>
-            <li data-target="#myCarousel" data-slide-to="7"></li>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="assets/1.png" class="img-rounded">
+        <!--knick knacks-->
+        <div id="slide4" class="slide" data-slide="4">
+            <a class="prev" href="#slide3"></a> <a class="next" href="#slide5"></a>
+            <div class="title">
+                <h3 class="companybb2">Knick Knack</h3>
+                <iframe class="video" style="float:right" width="550" height="300" src="https://www.youtube.com/embed/3aintj9zXY8" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="item">
-                <img src="assets/2.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/3.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/4.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/5.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/6.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/7.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/8.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/9.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/10.png" class="img-rounded" w>
-            </div>
-            <div class="item">
-                <img src="assets/11.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/12.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/13.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/14.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/15.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/16.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/17.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/18.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/19.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/20.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/21.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/22.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/23.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/24.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/25.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/26.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/27.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/28.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/29.png" class="img-rounded">
-            </div>
-            <div class="item">
-                <img src="assets/30.png" class="img-rounded">
-            </div>
-        </div>
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <!--luxo jr.-->
-    <div id="slide3" class="slide" data-slide="3">
-        <a class="prev" href="#myCarousel"></a><a class="next" href="#slide4"></a> 
-        <div class="title">
-            <h1 class="companybb">Luxo Jr.</h1>
-            <iframe class="video" width="550" height="300" src="https://www.youtube.com/embed/D4NPQ8mfKU0" src="https://www.youtube.com/embed/3aintj9zXY8" frameborder="0" allowfullscreen></iframe>
-        </div>
-         
-    </div>
-    <!--knick knacks-->
-    <div id="slide4" class="slide" data-slide="4">
-        <a class="prev" href="#slide3"></a> <a class="next" href="#slide5"></a>
-        <div class="title">
-            <h3 class="companybb2">Knick Knack</h3>
-            <iframe class="video" style="float:right" width="550" height="300" src="https://www.youtube.com/embed/3aintj9zXY8" frameborder="0" allowfullscreen></iframe>
-        </div>
-       
-        <img class="fun-images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRKUOaXBII3H6dH-veH6TU3NXzyVhw23KwQen1dodrgOqQlERLhg">
-        <img class="fun-images" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRYi2XcqwBuX9LFfnAuEwDs858yRh_Xsw_in1LByLs-6qIEIliq">
         
-    </div>
-    <!--one man band-->
-    <div id="slide5" class="slide" data-slide="5">
-       <a class="prev" href="#slide4"></a> <a class="next" href="#slide6"></a>
-        <div class="title" style="float:right">
-            <h1 class="companybb">One Man Band</h1>
-            <iframe class="video" style="float:right" width="550" height="300" src="https://www.youtube.com/embed/aqpvxi4gCas" frameborder="0" allowfullscreen></iframe>
+            <img class="fun-images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRKUOaXBII3H6dH-veH6TU3NXzyVhw23KwQen1dodrgOqQlERLhg">
+            <img class="fun-images" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRYi2XcqwBuX9LFfnAuEwDs858yRh_Xsw_in1LByLs-6qIEIliq">
+            
         </div>
-        <img class="fun-images" src="http://media.giphy.com/media/i4ZwrWdFuZkQ0/giphy.gif">
-        <img class="fun-images" src="http://www.robfuzesi.com/blogphotos/one-man-band-3.jpg">
+        <!--one man band-->
+        <div id="slide5" class="slide" data-slide="5">
+        <a class="prev" href="#slide4"></a> <a class="next" href="#slide6"></a>
+            <div class="title" style="float:right">
+                <h1 class="companybb">One Man Band</h1>
+                <iframe class="video" style="float:right" width="550" height="300" src="https://www.youtube.com/embed/aqpvxi4gCas" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <img class="fun-images" src="http://media.giphy.com/media/i4ZwrWdFuZkQ0/giphy.gif">
+            <img class="fun-images" src="http://www.robfuzesi.com/blogphotos/one-man-band-3.jpg">
+            
+        </div>
+        <!--Day and Night-->
+        <div id="slide6" class="slide" data-slide="6">
+            <a class="prev" href="#slide5"></a>
+            <a class="next" href="#slide7"></a>
+
+            <div class="title">
+                <h1 class="companybb">Day and Night</h1>
+                <iframe class="video" style="float:left" width="550" height="300" src="https://www.youtube.com/embed/bi7ybKxymao" frameborder="0" allowfullscreen></iframe>
+            </div>    </div>
+        <!--Presto-->
+        <div id="slide7" class="slide" data-slide="7">
+        <a class="prev" href="#slide6"></a><a class="next" href="#slide8"></a>
+            <div class="title">
+                <h3 class="companybb2">Presto</h3>
+                <iframe class="video" style="float:right" width="550" height="300" src="https://www.youtube.com/embed/vt4d0g-zfIA" frameborder="0" allowfullscreen></iframe>
+            </div>
+            
+        </div>
+        <!--Geri's Game-->
+        <div id="slide8" class="slide" data-slide="8">
+            <a class="prev" href="#slide7"></a>
+            <a class="next" href="#slide9"></a>
+            <div class="title">
+                <h3 class="companybb2">Geri's Game</h3>
+                <iframe class="video" style="float:right" width="550" height="300" src="https://www.youtube.com/embed/DK2JmY0inMs" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <img class="fun-images" src="https://media4.giphy.com/media/lefnWdkiEor2o/200.gif">
+            <img class="fun-images" src="https://media0.giphy.com/media/NJOZMwCToGB6E/200.gif">
+        </div>
+        <!--Burn-e-->
+        <div id="slide9" class="slide" data-slide="9">
+        <a class="prev" href="#slide8"></a><a class="next" href="#slide10"></a>
+            <div class="title">
+                <h1 class="companybb">Burn-e</h1>
+                <iframe class="video" style="float:left" width="550" height="300" src="https://www.youtube.com/embed/Byeq-A-ymZU" frameborder="0" allowfullscreen></iframe>
+            </div>
+            
+        </div>
+        <!--Jack Jack-->
+        <div id="slide10" class="slide" data-slide="10">
+        <a class="prev" href="#slide9"></a><a class="next" href="#slide11"></a>
+            <div class="title">
+                <h3 class="companybb2">Jack Jack Attack</h3>
+                <iframe class="video" style="float:right" width="550" height="300" src="https://www.youtube.com/embed/xXufhmyXBD4" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <img class="fun-images" src="http://data1.whicdn.com/images/6096261/thumb.jpg">
+            <img class="fun-images" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ4-Qy7KaYp9UCNJeb8bbDeLqI50MzGs5SSlXXz2XCGjQQMjGULEg">
+            
+        </div>
+        <!--Lifted-->
+        <div id="slide11" class="slide" data-slide="11">
+        <a class="prev" href="#slide10"></a>
+            <a class="next" href="#slide12"></a>
+            <div class="title">
+                <h1 class="companybb">Lifted</h1>
+                <iframe class="video" style="float:left" width="550" height="300" src="https://www.youtube.com/embed/LVLoc6FrLi0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!--Paperman-->
+        <div id="slide12" class="slide" data-slide="12">
+        <a class="prev" href="#slide11"></a><a class="next" href="#endslide"></a>
+            <div class="title">
+                <h1 class="companybb2">Paperman</h1>
+                <iframe class="video" style="float:right" width="550" height="300" src="https://www.youtube.com/embed/R99JXucNFcc" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <img class="fun-images" src="http://orig15.deviantart.net/bd6f/f/2013/005/5/3/paperman_fanart_by_wiktorwolfen-d5qkfpx.jpg">
+            <img class="fun-images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaP75at35OWhd3pc6vivWq3Loj614be7ZNSwdO3KNilbYUWdJC">
+            
+        </div>
+        <!--End-->
+        <div id="epilogue" class="slide">
+        </div>
+
+        <div id="endslide" class="slide header">
         
-    </div>
-    <!--Day and Night-->
-    <div id="slide6" class="slide" data-slide="6">
-         <a class="prev" href="#slide5"></a>
-         <a class="next" href="#slide7"></a>
-
-        <div class="title">
-            <h1 class="companybb">Day and Night</h1>
-            <iframe class="video" style="float:left" width="550" height="300" src="https://www.youtube.com/embed/bi7ybKxymao" frameborder="0" allowfullscreen></iframe>
-        </div>    </div>
-    <!--Presto-->
-    <div id="slide7" class="slide" data-slide="7">
-       <a class="prev" href="#slide6"></a><a class="next" href="#slide8"></a>
-        <div class="title">
-            <h3 class="companybb2">Presto</h3>
-            <iframe class="video" style="float:right" width="550" height="300" src="https://www.youtube.com/embed/vt4d0g-zfIA" frameborder="0" allowfullscreen></iframe>
         </div>
-         
-    </div>
-    <!--Geri's Game-->
-    <div id="slide8" class="slide" data-slide="8">
-         <a class="prev" href="#slide7"></a>
-         <a class="next" href="#slide9"></a>
-        <div class="title">
-            <h3 class="companybb2">Geri's Game</h3>
-            <iframe class="video" style="float:right" width="550" height="300" src="https://www.youtube.com/embed/DK2JmY0inMs" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <img class="fun-images" src="https://media4.giphy.com/media/lefnWdkiEor2o/200.gif">
-        <img class="fun-images" src="https://media0.giphy.com/media/NJOZMwCToGB6E/200.gif">
-    </div>
-    <!--Burn-e-->
-    <div id="slide9" class="slide" data-slide="9">
-       <a class="prev" href="#slide8"></a><a class="next" href="#slide10"></a>
-        <div class="title">
-            <h1 class="companybb">Burn-e</h1>
-            <iframe class="video" style="float:left" width="550" height="300" src="https://www.youtube.com/embed/Byeq-A-ymZU" frameborder="0" allowfullscreen></iframe>
-        </div>
-         
-    </div>
-    <!--Jack Jack-->
-    <div id="slide10" class="slide" data-slide="10">
-       <a class="prev" href="#slide9"></a><a class="next" href="#slide11"></a>
-        <div class="title">
-            <h3 class="companybb2">Jack Jack Attack</h3>
-            <iframe class="video" style="float:right" width="550" height="300" src="https://www.youtube.com/embed/xXufhmyXBD4" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <img class="fun-images" src="http://data1.whicdn.com/images/6096261/thumb.jpg">
-        <img class="fun-images" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ4-Qy7KaYp9UCNJeb8bbDeLqI50MzGs5SSlXXz2XCGjQQMjGULEg">
-         
-    </div>
-    <!--Lifted-->
-    <div id="slide11" class="slide" data-slide="11">
-       <a class="prev" href="#slide10"></a>
-         <a class="next" href="#slide12"></a>
-        <div class="title">
-            <h1 class="companybb">Lifted</h1>
-            <iframe class="video" style="float:left" width="550" height="300" src="https://www.youtube.com/embed/LVLoc6FrLi0" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
-    <!--Paperman-->
-    <div id="slide12" class="slide" data-slide="12">
-       <a class="prev" href="#slide11"></a><a class="next" href="#endslide"></a>
-        <div class="title">
-            <h1 class="companybb2">Paperman</h1>
-            <iframe class="video" style="float:right" width="550" height="300" src="https://www.youtube.com/embed/R99JXucNFcc" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <img class="fun-images" src="http://orig15.deviantart.net/bd6f/f/2013/005/5/3/paperman_fanart_by_wiktorwolfen-d5qkfpx.jpg">
-        <img class="fun-images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaP75at35OWhd3pc6vivWq3Loj614be7ZNSwdO3KNilbYUWdJC">
-         
-    </div>
-    <!--End-->
-    <div id="epilogue" class="slide">
-    </div>
-
-    <div id="endslide" class="slide header">
-       
-    </div>
-    
-</body>
-<script type="text/javascript" scr="app.js"></script>
-
+        
+    </body>
+    <script type="text/javascript" scr="app.js"></script>
 </html>
