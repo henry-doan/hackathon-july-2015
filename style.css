@@ -227,7 +227,7 @@ nav.next-prev {
 
 /* Slides*/
 #title {
-    background-image: url("./img/shorts/pixarshorts.jpg");
+    background-image: url("./assets/img/shorts/pixarshorts.jpg");
     background-attachment: fixed;
 }
 
@@ -240,7 +240,7 @@ nav.next-prev {
 }
 
 #slide1:before {
-    background-image: url("./img/shorts/pixar-legend.jpg");
+    background-image: url("./assets/img/shorts/pixar-legend.jpg");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
@@ -250,63 +250,63 @@ nav.next-prev {
 }
 
 #slide3:before {
-    background-image: url("./img/shorts/pixar.jpg");
+    background-image: url("./assets/img/shorts/pixar.jpg");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
 
 #slide4 {
-    background-image: url("./img/shorts/knick-knack.jpg");
+    background-image: url("./assets/img/shorts/knick-knack.jpg");
     background-attachment: fixed;
 }
 
 #slide5:before {
-    background-image: url("./img/shorts/onemanband.jpg");
+    background-image: url("./assets/img/shorts/onemanband.jpg");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
 
 #slide6 {
-    background-image: url("./img/shorts/DayAndNight1.jpg");
+    background-image: url("./assets/img/shorts/DayAndNight1.jpg");
     background-attachment: fixed;
 }
 
 #slide7:before {
-    background-image: url("./img/shorts/presto.jpg");
+    background-image: url("./assets/img/shorts/presto.jpg");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
 
 #slide8 {
-    background-image: url("./img/shorts/GeriGame.jpg");
+    background-image: url("./assets/img/shorts/GeriGame.jpg");
     background-attachment: fixed;
 }
 
 #slide9:before {
-    background-image: url("./img/shorts/burn-e2.png");
+    background-image: url("./assets/img/shorts/burn-e2.png");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
 
 #slide10 {
-    background-image: url("./img/shorts/jackjackattack.jpg");
+    background-image: url("./assets/img/shorts/jackjackattack.jpg");
     background-attachment: fixed;
 }
 
 #slide11:before {
-    background-image: url("./img/shorts/houseabduction.jpeg");
+    background-image: url("./assets/img/shorts/houseabduction.jpeg");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
 
 #slide12 {
-    background-image: url("./img/shorts/Paperman.jpg");
+    background-image: url("./assets/img/shorts/Paperman.jpg");
     background-attachment: fixed;
 }
 
 #endslide {
-    background-image: url("./img/shorts/theend.gif")
+    background-image: url("./assets/img/shorts/theend.gif")
 }
 #epilogue {
-  background-image: url("./img/shorts/Up.jpeg");
+  background-image: url("./assets/img/shorts/Up.jpeg");
 }
