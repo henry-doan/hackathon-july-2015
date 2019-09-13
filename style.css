@@ -138,7 +138,7 @@ nav.next-prev {
       display: block;
       width: 15px;
       height: 11px;
-      text-indent: #6CFF37px;
+      text-indent: 6px;
     } 
 
     a.prev {
@@ -227,7 +227,7 @@ nav.next-prev {
 
 /* Slides*/
 #title {
-    background-image: url("http://image.tmdb.org/t/p/original/eWtzrnNAWcc752zTIM5xWtPUKuI.jpg");
+    background-image: url("./img/shorts/pixarshorts.jpg");
     background-attachment: fixed;
 }
 
@@ -240,74 +240,73 @@ nav.next-prev {
 }
 
 #slide1:before {
-    background-image: url("http://hitwallpaper.com/wp-content/uploads/2013/07/Pixar.jpg");
+    background-image: url("./img/shorts/pixar-legend.jpg");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
 
 #slide2 {
-    background-image: url("http://aimg.disneystore.com/content/ds/skyway/2012/category/full/cp_FWB_Pixar_20120926.jpg");
     background-attachment: fixed;
 }
 
 #slide3:before {
-    background-image: url("http://orig00.deviantart.net/7556/f/2008/154/a/1/pixar_by_joneastwood.jpg");
+    background-image: url("./img/shorts/pixar.jpg");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
 
 #slide4 {
-    background-image: url("http://www.mafab.hu/static/2014t/285/16/46995_35.jpg");
+    background-image: url("./img/shorts/knick-knack.jpg");
     background-attachment: fixed;
 }
 
 #slide5:before {
-    background-image: url("http://image.tmdb.org/t/p/original/o92J1dJTK8kFQUnpkCb5bcn0gyL.jpg");
+    background-image: url("./img/shorts/onemanband.jpg");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
 
 #slide6 {
-    background-image: url("http://www.joblo.com/newsimages1/DayAndNight1.jpg");
+    background-image: url("./img/shorts/DayAndNight1.jpg");
     background-attachment: fixed;
 }
 
 #slide7:before {
-    background-image: url("http://pintaw.com/images/wallpapers/Presto-wallpaper.jpg");
+    background-image: url("./img/shorts/presto.jpg");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
 
 #slide8 {
-    background-image: url("http://1.bp.blogspot.com/-Ykuly6nYFTg/UJii7SLk6tI/AAAAAAAADWU/0fy3TZb6ua8/s1600/Geri's+Game.jpg");
+    background-image: url("./img/shorts/GeriGame.jpg");
     background-attachment: fixed;
 }
 
 #slide9:before {
-    background-image: url("http://i486.photobucket.com/albums/rr221/jorgemmgames/Burn-e/burn-e2.png");
+    background-image: url("./img/shorts/burn-e2.png");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
 
 #slide10 {
-    background-image: url("https://image.tmdb.org/t/p/original/msI2Xq6HGMjzWQbFEf6Ls3HSrLp.jpg");
+    background-image: url("./img/shorts/jackjackattack.jpg");
     background-attachment: fixed;
 }
 
 #slide11:before {
-    background-image: url("http://www.wallpaper4me.com/images/wallpapers/houseabduction-469315.jpeg");
+    background-image: url("./img/shorts/houseabduction.jpeg");
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
 
 #slide12 {
-    background-image: url("http://images6.fanpop.com/image/photos/34800000/Paperman-Wallpaper-paperman-34870962-1920-1080.jpg");
+    background-image: url("./img/shorts/Paperman.jpg");
     background-attachment: fixed;
 }
 
 #endslide {
-    background-image: url("http://media.giphy.com/media/YVg3fCdaBpLEc/giphy.gif")
+    background-image: url("./img/shorts/theend.gif")
 }
 #epilogue {
-  background-image: url("http://a.dilcdn.com/bl/wp-content/uploads/sites/2/2015/05/Up080.png");
+  background-image: url("./img/shorts/Up.jpeg");
 }
